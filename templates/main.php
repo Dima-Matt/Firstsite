@@ -11,12 +11,7 @@
           <p class="spec"><a href="news_detail.php?id=<?$news['id']?>" class="rm">Читать далее &raquo;</a> <a href="#" class="com"><span><?=$news['comment_cnt'];?></span> Комментариев</a></p>
         </div>
        
-        <p class="pages">
-          <small>Страница 1 из 2 &nbsp;&nbsp;&nbsp;</small>
-           <span>1</span> 
-           <a href="#">2</a> 
-           <a href="#">&raquo;</a>
-          </p>
+       <?=$navigation?>
  <?endforeach;?>
         
 <?else:?>
